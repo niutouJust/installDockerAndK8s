@@ -1,12 +1,16 @@
 #swap   vim /etc/fstab  always close
 
-sudo swapoff -a #close swap
+#swap close 
+sudo swapoff -a
 
-sudo systemctl stop firewalld # close firewall
+# firewall close 
+sudo systemctl stop firewalld
 
-sudo setenforce 0 # close SELINUX
+# SElinux close
+sudo setenforce 0 
 
-sudo ntpdate time1.aliyun.com # update time
+# update date
+sudo ntpdate time1.aliyun.com
 
 
 # add k8s config
