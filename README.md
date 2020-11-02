@@ -1,1 +1,1 @@
-# this's Docker and Kubernetes install auto shell in Centos 7 
+# this's Docker and Kubernetes install shell in Centos 7 
